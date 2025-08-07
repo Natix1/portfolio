@@ -184,9 +184,9 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #ffd7ef !important;
-  border-color: #ffd7ef !important;
-  color: #d70081 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #808080 !important;
   box-shadow: none;
 }
 .btn-secondary:hover,
@@ -200,7 +200,7 @@ body {
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-  color: #d70081 !important;
+  color: #808080 !important;
   background-color: #ffffff !important;
   border-color: #ffffff !important;
 }
@@ -360,23 +360,23 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background-color: transparent !important;
-  border-color: #ffd7ef;
-  color: #ffd7ef;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
-  color: #ff80cc !important;
+  color: #d4d4d4 !important;
   background-color: transparent !important;
-  border-color: #ff80cc !important;
+  border-color: #d4d4d4 !important;
   box-shadow: none !important;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
-  color: #d70081 !important;
-  background-color: #ffd7ef !important;
-  border-color: #ffd7ef !important;
+  color: #808080 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -508,7 +508,7 @@ body {
   color: #ffffff !important;
 }
 .text-secondary {
-  color: #ffd7ef !important;
+  color: #ffffff !important;
 }
 .text-success {
   color: #3a341c !important;
@@ -536,7 +536,7 @@ a.text-primary.active {
 a.text-secondary:hover,
 a.text-secondary:focus,
 a.text-secondary.active {
-  color: #ff71c6 !important;
+  color: #cccccc !important;
 }
 a.text-success:hover,
 a.text-success:focus,
@@ -714,7 +714,7 @@ blockquote {
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #000000 !important;
-  background: #ffd7ef !important;
+  background: #ffffff !important;
   box-shadow: none !important;
 }
 .lazy-bg {
@@ -1032,32 +1032,6 @@ a {
 .cid-uT7geV3UDq .mbr-section-subtitle {
   color: #ffffff;
 }
-.cid-uT7ekT1Oec {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #000000;
-}
-.cid-uT7ekT1Oec .item:focus,
-.cid-uT7ekT1Oec span:focus {
-  outline: none;
-}
-.cid-uT7ekT1Oec .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-  overflow: hidden;
-}
-.cid-uT7ekT1Oec .content-head {
-  max-width: 800px;
-}
-.cid-uT7ekT1Oec .item {
-  color: #ffffff;
-  min-height: 90px;
-}
-@media (max-width: 768px) {
-  .cid-uT7ekT1Oec .item {
-    min-height: 45px;
-  }
-}
 .cid-uT7jFMaN9g {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1078,9 +1052,70 @@ a {
 .cid-uT7jFMaN9g .mbr-section-title {
   color: #ffffff;
 }
-.cid-uT7kdh7HrQ {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.cid-uTaVTxmiPl {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #000000;
-  overflow: hidden;
+}
+.cid-uTaVTxmiPl .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uTaVTxmiPl .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uTaVTxmiPl .copyright {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-uTaVTxmiPl .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 991px) {
+  .cid-uTaVTxmiPl .row {
+    flex-direction: column-reverse !important;
+  }
+  .cid-uTaVTxmiPl .row .copyright {
+    margin: 1rem 0 0 0;
+  }
+}
+.cid-uTaVTxmiPl .row-links {
+  width: 100%;
+  justify-content: center;
+}
+.cid-uTaVTxmiPl .row-links .row-links-soc {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .cid-uTaVTxmiPl .row-links .row-links-soc {
+    justify-content: center;
+  }
+}
+.cid-uTaVTxmiPl .row-links .row-links-soc li {
+  padding: 0 1rem 0rem 1rem;
+}
+@media (max-width: 767px) {
+  .cid-uTaVTxmiPl .row-links .row-links-soc li {
+    padding: 0 1rem 1rem 1rem;
+  }
+}
+.cid-uTaVTxmiPl .row-links .row-links-soc li p {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .cid-uTaVTxmiPl .copyright {
+    text-align: center;
+  }
 }
